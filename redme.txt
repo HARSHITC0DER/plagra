@@ -1,0 +1,55 @@
+# Paraphrasing Tool with Pegasus
+
+This is a Python script that uses the Pegasus model for paraphrasing text. Given an input paragraph, it splits the text into sentences, paraphrases each sentence, and then combines the paraphrased sentences to generate a paraphrased version of the entire paragraph.
+
+## Prerequisites
+
+Before running the script, make sure you have the necessary Python libraries installed:
+
+```bash
+pip install transformers sentence-splitter torch
+Usage
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/yourusername/paraphrasing-tool.git
+Navigate to the project directory:
+bash
+Copy code
+cd paraphrasing-tool
+Run the script:
+bash
+Copy code
+python paraphrase.py
+Enter a paragraph of text when prompted.
+
+The script will generate paraphrased sentences and display both the combined paraphrased paragraph and the separated sentences.
+
+Example
+Here's an example of how the script works:
+
+  code
+BANNER = """
+    [Banner Text]
+"""
+
+# [Rest of Your Python Code]
+
+# Comparison of the original (user_input) and the paraphrased version (paraphrase_paragraph variable)
+print("\nOriginal:")
+print(user_input)
+
+print("\nParaphrased:")
+print(paraphrase_paragraph)
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+vbnet
+Copy code
+
+Replace `[Banner Text]` with your actual banner text or remove it if not needed. Also, make sure to replace `https://github.com/yourusername/paraphrasing-tool.git` with the actual URL of your GitHub repository.
+
+This README file provides an overview of your project, its usage instructions, and a brief example of how to use it. You can further enhance it with additional sections or details as needed.
+
+
+
